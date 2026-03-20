@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap");
 
 :root {
-  --primary: #2D2D2D; /* Charcoal */
-  --secondary: #F5F5DC; /* Warm Cream */
-  --accent-olive: #556B2F; /* Olive Drab */
-  --accent-terra: #E2725B; /* Terracotta */
-  --bg-main: #FAFAF9; /* Off-white / Stone */
-  --text-main: #1A1A1A;
-  --text-muted: #6B7280;
-  --white: #FFFFFF;
+  --primary: #000000; /* Black */
+  --secondary: #ffd700; /* Gold */
+  --accent-olive: #8b0000; /* Dark Red */
+  --accent-terra: #ff1493; /* Deep Pink */
+  --bg-main: #fff0f5; /* Soft Pink */
+  --text-main: #1a1a1a;
+  --text-muted: #6b7280;
+  --white: #ffffff;
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   background-color: var(--bg-main);
   color: var(--text-main);
   line-height: 1.5;
@@ -53,7 +53,9 @@ ul {
 }
 
 /* Typography Utility */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: -0.02em;
@@ -67,13 +69,23 @@ h1, h2, h3 {
 
 /* Animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideIn {
-  from { transform: translateX(100%); }
-  to { transform: translateX(0); }
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .fade-in {
