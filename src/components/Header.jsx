@@ -8,15 +8,19 @@ const Header = () => {
     <header className="glass" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000, padding: '1.5rem 0' }}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div className="logo" style={{ fontSize: '1.5rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-          UNIS-STYLE
+          FASHION-FORWARD
         </div>
         
         <nav>
           <ul style={{ display: 'flex', gap: '2.5rem', textTransform: 'uppercase', fontSize: '0.85rem', fontWeight: 600 }}>
             <li><a href="#new">New In</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#essentials">Essentials</a></li>
             <li><a href="#accessories">Accessories</a></li>
             <li><a href="#archive">Archive</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#women">Women</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         
